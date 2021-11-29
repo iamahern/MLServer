@@ -1,6 +1,6 @@
 # Code generation
 grpcio-tools==1.41.1
-datamodel-code-generator==0.11.14
+datamodel-code-generator==0.11.15
 ## Locking `prance` (a subdep of `datamodel-code-generator`) to an older
 ## version due to issues with the latest version of `pip`:
 ## https://github.com/pypa/pip/issues/9613 
@@ -10,7 +10,7 @@ prance==0.20.0
 pytest==6.2.2
 pytest-asyncio==0.16.0
 pytest-mock==3.6.1
-pytest-cases==3.6.4
+pytest-cases==3.6.5
 tox==3.24.4
 docker==5.0.3
 aiohttp==3.7.4.post0
